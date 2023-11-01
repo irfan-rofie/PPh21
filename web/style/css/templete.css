@@ -1,0 +1,465 @@
+#all {
+    background-color:rgba(255, 255, 255, 0.3);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+    width:995px;
+    margin:auto;
+    padding:3px;
+    -moz-border-radius-bottomleft:10px;
+}
+
+#men {
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-bottomright:10px;
+}
+#menb {
+    -moz-border-radius-bottomleft:12px;
+    -moz-border-radius-bottomright:12px;
+}
+
+#all #head{
+    background-image:url(../gambar/head.png);
+    height:143px;
+}	
+#all #head #hari{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding-left:710px;
+    padding-top:119px;
+    font-weight:bold;
+    color:#FFF;
+    text-shadow: 0 1px 0 #fff, 0 -2px 0 #000;
+}
+#all #head #jam{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding-left:905px;
+    margin-top:-16px;
+    color:#fff;
+    text-shadow: 0 1px 0 #fff, 0 -2px 0 #000;
+}
+#all #menu {
+    float:left;
+    margin-bottom:10px;
+}
+#all #menu a{
+    width:140px;
+    border-bottom:1px solid #990000;
+    display:block;
+    padding-left:20px;
+    padding-top:4px;
+    padding-bottom:6px;
+    /*background-image:url(../gambar/awal.gif);*/
+    text-decoration:none;
+    color:#000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+#all #menu a:hover {
+    background-image:url(../gambar/item.gif);
+    color:#FfF;
+    padding-left:25px;
+    border-right:1px solid #990000;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-bottomright:10px;
+}
+.test{
+    border-right:1px solid #990000;
+    background-image:url(../gambar/item.gif);
+    color:#FFF;
+    padding-left:25px;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-bottomright:10px;
+}
+#all #content {
+    border:1px solid #000066;
+    width:812px;
+    margin-left:170px;
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    clear:none;
+    padding-bottom:5px;
+    background-color:rgba(255, 255, 255, 0.3);
+    -moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+#all #content a{
+    text-decoration:none;
+}
+#anggota {
+    font-family:calibri;
+    margin-top:15px;
+    text-align:center;
+    -moz-box-shadow:0 0 2px #333;
+    width:810px;
+}
+#anggota table{
+    width:100%;
+}
+#anggota table th {
+    color:#FFFFFF;
+    font-family:calibri;
+    height:32px;
+    background-image: url(../gambar/atribut3.gif);
+    border:1px solid #000066;
+}
+#anggota table td {
+    border:1px solid #000066;
+    font-size:12px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#anggota table td  b{
+    color:#FF0000;
+    font-size:16px;
+    text-decoration: blink;
+}
+#anggota table th a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+#anggota table td a{
+    color:#000;
+    text-decoration:none;
+}
+#anggota table td a:hover{
+    color:#000099;
+}
+tr#ganjil{
+    background-color:#CAF5F9;
+}
+/*tr#ganjil:hover{
+        background-color:#E05F5F;
+}*/
+tr#genap{
+    background-color: #3EC7E3;
+}
+/*tr#genap:hover{
+        background-color:#090A0A;
+        }*/
+#bar{
+    border-bottom:1px solid #990000;
+    /*border-left:1px solid #ffffff;*/
+    color:#000;
+    padding-top:2px;
+    padding-bottom:2px;
+    font-size:12px;
+}
+#bar2{
+    padding-top:2px;
+    padding-bottom:2px;
+    border-bottom:1px solid #990000;
+    color:#000;
+    font-size:12px;
+    text-align:left;
+}
+#tambah{
+    margin-top:-30px;
+}
+#tambah a{
+    padding:8px 10px 8px 10px;
+    -moz-border-radius:5px;
+    border:1px solid #000066;
+    background-image:
+        -moz-linear-gradient(bottom, #000099, #0099FF);
+    color:#FFFFFF;
+    font-family:calibri;
+    text-decoration:none;
+}
+#tambah a:hover{
+    background-image:
+        -moz-linear-gradient(bottom, #0099FF,#000099);
+}
+.aksi {
+    text-decoration:none;
+    padding-right:6px;
+}
+.aksi2{
+    padding-left:6px;
+}
+#jum {
+    font-family:calibri;
+}
+#jum form {
+    padding:5px;
+    background-image:
+        -moz-linear-gradient(bottom, #000099, #0099FF);
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+} 
+#jum form table {
+    width:90%;
+    color:#FFFFFF;
+}
+#jum form table td input[type=text]{
+    padding:5px;
+    border:1px #FF0000 solid;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#dat{
+    font-family:calibri;
+    padding-top:10px;
+    color:#000066;
+}
+#dat a{
+    border:1px solid #990000;
+    text-decoration:none;
+    padding:1px 6px 2px 6px;
+    color:#fff;
+    background-color:#000099;
+}
+#dat a:hover{
+    -moz-box-shadow:0 0 2px #00CCFF;
+}
+#crud {
+    width:600px;
+    margin:auto;
+    font-size: 16px;
+    font-family:calibri;
+    -moz-box-shadow:0 0 3px #000000;
+    border:1px solid #000066;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-bottom:20px;
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    /*background-image:
+    -moz-linear-gradient(bottom, #000099, #0099FF);*/
+}
+#crud table {
+    width:100%;
+}
+#crud table caption{
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    padding:10px;
+    background-color:#0099FF;
+}
+#crud table td{
+    padding-left:10px;
+}	
+#crud table td input[type=text],[type=password] {
+    border:1px #FF0000 solid;
+    width:250px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#list{
+    border:1px #FF0000 solid;
+    width:250px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#crud table td input[type=email] {
+    border:1px #FF0000 solid;
+    width:250px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#crud table td textarea {
+    border:1px #FF0000 solid;
+    width:250px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#crud table td input[type=submit]  {
+    font-family:calibri;
+    float:left;
+    margin-top:10px;
+    margin-left:120px;
+    margin-bottom:10px;
+    border:1px #ffffff solid;
+    padding:5px 15px 5px 15px;
+    color:#FFFFFF;
+    font-weight:bold;
+    background:#990000;
+    -moz-border-radius:5px;
+    cursor:pointer;
+}
+#crud table td input[type=button]  {
+    font-family:calibri;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    border:1px #ffffff solid;
+    padding:5px 15px 5px 15px;
+    color:#FFFFFF;
+    font-weight:bold;
+    background:#990000;
+    -moz-border-radius:5px;
+    cursor:pointer;
+}
+#crud table td input[type=reset]  {
+    font-family:calibri;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    border:1px #ffffff solid;
+    padding:5px 15px 5px 15px;
+    color:#FFFFFF;
+    font-weight:bold;
+    background:#990000;
+    -moz-border-radius:5px;
+    cursor:pointer;
+}
+#crud table td img{
+    width:50px;
+    height:50px;
+}
+
+#cari{
+    border:0px 1px 1px 1px solid #000066;
+    background-color:#000099;
+    margin-left:300px;
+    margin-top:0px;
+    margin-bottom:5px;
+    padding-left:5px;
+    -moz-border-radius-bottomleft:10px;
+    -moz-border-radius-bottomright:10px;
+}
+
+#cari form {
+    float:right;
+    margin-top:5px;
+    margin-right:20px;
+}
+#cari b{
+    margin-left:10px;
+    color:#FFFFFF;
+    padding-right:10px;
+}
+#cari2 {
+    margin-top:-35px;
+    margin-bottom:-10px;
+    margin-left:220px;
+}
+#cari2 b{
+    color:#000066;
+    padding-right:10px;
+}
+#cari input[TYPE=text]{
+    border:2px #000099   solid;
+    padding:5px 2px 5px 2px;
+    font-family:calibri;
+    background-color:rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+#cari input[TYPE=submit]{
+    background-image:url(../gambar/atribut3.gif);
+    border:1px solid #000099;
+    padding:5px 7px 5px 7px;
+    color:#FFF;
+    font-family:calibri;
+}
+#cari2 input[TYPE=text]{
+    border:2px #000066 solid;
+    padding:5px 2px 5px 2px;
+    font-family:calibri;
+    background-color:rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+#cari2 input[TYPE=submit]{
+    background-image:url(../gambar/atribut3.gif);
+    border:1px solid #000066;
+    padding:5px 7px 5px 7px;
+    color:#FFF;
+    font-family:calibri;
+}
+#all #kaki {
+    position:inherit;
+    clear:both;
+    color:#666666;
+    font-family:"MS Reference Sans Serif";
+    text-align:center;
+    font-size:13px;
+    width:100%;
+    padding-top:20px;
+    /*background-image:url(../gambar/footer.gif);*/
+}
+#all #kaki a{
+    text-decoration:none;
+    color:#000099;
+}
+#all #kaki a:hover{
+    text-decoration:underline;
+    color:#F00;
+}
+select {
+    padding:5px;
+    border:1px #FF0000 solid;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-family:calibri;
+    opacity:0.7;
+}
+#home img{
+    width:100px;
+    height:100px;
+    -moz-box-shadow:0 0 5px #000;
+    border:1px solid #000066;
+    padding:5px;
+    background-color:#990000;
+    margin-right:15px;
+    float:left;
+}
+#home a{
+    color:#0066FF;
+    font-weight:bold;
+}
+#home a:hover{
+    color:#FF0000;
+}
+#home #info table{
+    font-size:12px;
+}
+input[type=button]  {
+    font-family:calibri;
+    border:1px #ffffff solid;
+    padding:5px 15px 5px 15px;
+    color:#FFFFFF;
+    font-weight:bold;
+    background:#990000;
+    -moz-border-radius:5px;
+    cursor:pointer;
+}
+#anggota2 {
+    font-family:calibri;
+    margin-top:15px;
+    text-align:center;
+    -moz-box-shadow:0 0 2px #333;
+    width:100%;
+}
+#anggota2 table{
+    width:100%;
+}
+#anggota2 table th,caption {
+    color:#FFFFFF;
+    font-family:calibri;
+    height:32px;
+    background-image: url(../gambar/atribut3.gif);
+    border:1px solid #000066;
+}
+
+#anggota2 table td {
+    border:1px solid #000066;
+    font-size:12px;
+    padding:5px;
+}

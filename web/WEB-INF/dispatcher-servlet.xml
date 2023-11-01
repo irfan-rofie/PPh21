@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+    <bean name="beanNameUrlHandlerMapping"
+          class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp/"
+          p:suffix=".jsp" />
+    
+    <bean name="/login.htm"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="login"/>
+    <bean name="/user.htm"
+          class="spring.pph21.controller.UserController"
+          p:userService="userService"
+          p:userService-ref="userService"/>
+    <bean name="/pegawai.htm"
+          class="spring.pph21.controller.PegawaiController"
+          p:pegawaiService="pegawaiService"
+          p:pegawaiService-ref="pegawaiService"
+          p:transaksiService="transaksiService"
+          p:transaksiService-ref="transaksiService"/>
+    <bean name="/transaksi.htm"
+          class="spring.pph21.controller.SaveController"
+          p:pegawaiService="pegawaiService"
+          p:pegawaiService-ref="pegawaiService"
+          p:transaksiService="transaksiService"
+          p:transaksiService-ref="transaksiService"/>
+    <bean name="/viewpegawai.htm"
+          class="spring.pph21.controller.ViewController"
+          p:pegawaiService="pegawaiService"
+          p:pegawaiService-ref="pegawaiService"/>
+    <bean name="/caripegawai.htm" class="spring.pph21.controller.CariController"
+          p:pegawaiService="pegawaiService"
+          p:pegawaiService-ref="pegawaiService"/>
+</beans>

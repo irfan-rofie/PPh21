@@ -1,0 +1,32 @@
+/* CSS Document */
+#smua{
+	width:700px;
+	
+	border:1px #666666 solid;
+	-moz-border-radius:10px 10px 10px 10px;
+}
+#atas{
+	height:140px;
+
+	-moz-border-radius:10px 10px 0 0;
+	background-color:#663366;
+	width:700px;
+	text-align:center;
+	border-bottom-style:double;
+}
+#dta{
+	text-align:left;
+	padding:20px 0 0 20px;
+
+}
+#ddokter{
+	border:ridge;
+	margin:20px 20px 20px 20px;
+}
+#dtindak{
+	border:ridge;
+	margin:20px 20px 20px 20px;
+}
+b{
+	padding-left:10px;
+}

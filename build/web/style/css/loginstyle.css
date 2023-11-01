@@ -1,0 +1,179 @@
+#sis{
+	font-family:Arial, Helvetica, sans-serif;
+	width:900px;
+	height:101px;
+	color:#FFF;
+	font-size:45px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #990000;
+	-moz-box-shadow:0 0 5px #000;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	padding-top:15px;
+	margin:auto;
+	margin-top:100px;
+	background-image:url(../gambar/bgjudul.png);
+	text-shadow: 0 1px 0 #fff, 0 -2px 0 #000;
+	/*background-color:rgba(255, 255, 255, 0.5);
+   -moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);*/
+	}
+#all {
+	width:900px;
+	-moz-box-shadow:0 0 5px #000;
+/*	background-color:rgba(255, 255, 255, 0.5);
+   -moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);*/
+  background-image:
+	-moz-linear-gradient(bottom, #FED3CF, #990000);
+   height:290px;
+   margin:auto;
+   margin-top:-15px;
+   border:1px solid #990000;
+   -moz-border-radius-topleft:20px;
+   -moz-border-radius-topright:20px;
+   -moz-border-radius-bottomleft:5px;
+   -moz-border-radius-bottomright:5px;
+	}
+#all #pesan {
+	font-family:candara;
+	width:570px;
+	height:250px;
+	border:1px solid #990000;
+	-moz-border-radius:5px;
+	margin-top:-252px;
+	float:right;
+	margin-right:20px;
+	background-image:url(../gambar/bgpesan.gif);
+	background-color:rgba(255, 255, 255, 0.5);
+   -moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+	}
+#sis #jam{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:570px;
+	margin-top:10px;
+	}
+#sis #hari{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:580px;
+	margin-top:12px;
+	}
+#pesan  h3{
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#pesan  p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	}
+#all #pesan iframe {
+	width:500px;
+	height:400px;
+	padding-top:30px;
+	padding-left:30px;
+	}
+#all #temp {
+	font-family: Arial, Helvetica, sans-serif;
+	width:270px;
+	height:250px;
+	border:1px solid #990000;
+	-moz-border-radius:5px;
+	margin-left:20px;
+	margin-top:20px;
+	background-color:rgba(255, 255, 255, 0.5);
+   -moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+#all #temp b {
+	font-size: 12px;
+	display: block;
+	padding-left:20px;
+}
+#all #temp #judul {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#all #temp input[TYPE=text],input[TYPE=password]{
+	padding:7px 7px 5px 7px;
+	margin-top:5px;
+	border:1px solid #990000;
+	margin-bottom:5px;
+	margin-left:20px;
+	width:200px;
+}
+
+#all #temp input[TYPE=text]:hover,input[TYPE=password]:hover{
+	-moz-box-shadow:0 0 1px #990000;
+	}
+#all #temp input[TYPE=text]:active,input[TYPE=password]:active{
+	-moz-box-shadow:0 0 1px #990000;
+	}
+#all #temp input[TYPE=submit]{
+	margin-left:27px;
+	color:#FFF;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px #990000 solid;
+	background-image:url(../gambar/but.gif);
+	margin-top:15px;
+	padding: 10px 10px 10px 10px;
+	-moz-border-radius:4px;
+	filter: Chroma(#fff);
+}
+#all #temp input[TYPE=submit]:hover{
+	background-image:url(../gambar/but2hov.gif);
+}
+ #kak {
+	color:#900;
+	font-family:"MS Reference Sans Serif";
+	text-align:center;
+	padding-top:20px;
+	font-size:13px;
+	}
+#kak a{
+	text-decoration:none;
+	color:#900;
+	padding-left:10px;
+	padding-right:10px;
+	}
+#kak a:hover{
+	text-decoration:underline;
+	color:#F00;
+	}
+#tentang {
+	width:450px;
+	font-family:"MS Reference Sans Serif";
+	background-color:rgba(255, 255, 255, 0.5);
+   -moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+   -moz-border-radius:10px;
+   padding-bottom:10px;
+   border:1px solid #0099FF;
+}
+#tentang legend{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#0066FF;
+}
+#tentang a{
+	color:#000099;
+	text-decoration:none;
+}
+#tentang a:hover{
+	text-decoration:underline;
+}
+select {
+	padding:5px;
+	border:1px #990000 solid;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:calibri;
+	opacity:0.7;
+}
